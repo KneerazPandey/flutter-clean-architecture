@@ -36,9 +36,30 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # For functional programming with dart
+  dartz: ^0.10.1
+
+  # For equality purpose 
+  equatable: ^2.0.5
+
+  # State Management
+  flutter_bloc: ^8.1.3
+
+  # Dependency Inversion
+  get_it: ^7.6.4
+
+  # For calling endpoints 
+  http: ^1.1.0
+
+  # Saving data locally (caching)
+  shared_preferences: ^2.2.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # For testing (Test Driven Development) using mock classes
+  mockito: ^5.4.2
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
