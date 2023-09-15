@@ -54,6 +54,9 @@ dependencies:
   # Saving data locally (caching)
   shared_preferences: ^2.2.1
 
+  # For checking internet connectivity
+  connectivity_plus: ^4.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -6,3 +6,9 @@ class Failure extends Equatable {
   @override
   List<Object?> get props => [];
 }
+
+// Creating general failure
+
+class ServerFailure extends Failure {}
+
+class CacheFailure extends Failure {}
